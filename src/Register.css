@@ -1,0 +1,209 @@
+/* General styles */
+body, html {
+  height: 100%;
+  margin: 60px ;
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f9;
+}
+
+.register-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.register-container {
+  width: 600px; /* Tăng kích thước container */
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  
+}
+
+h2 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Circle step indicator */
+.circle-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.circle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.circle-text {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #007bff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: bold;
+}
+
+.separator {
+  font-size: 24px;
+  color: #555;
+}
+
+.circle-description {
+  margin-top: 5px;
+  color: #333;
+  font-size: 14px;
+  text-align: center;
+}
+
+
+
+/* Form styling */
+form {
+  display: flex;
+  flex-direction: column;
+  /* margin-top: 30px; 
+  margin-bottom: 30px;  */
+}
+
+.error {
+  color: red;
+  margin-top: 10px;
+  text-align: center;
+}
+
+/* File upload section */
+.file-upload-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+  background-color: #f9f9f9; /* Màu nền lớn */
+  padding: 20px; /* Thêm khoảng cách cho nội dung bên trong */
+  border-radius: 10px; /* Bo góc nếu cần */
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1); /* Nếu muốn có bóng */
+}
+
+/* .file-upload-item {
+  width: 45%;
+  text-align: center;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+} */
+
+.cloud-icon {
+  font-size: 48px;
+  color: #3498db;
+  margin-bottom: 10px;
+}
+
+.file-upload-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.file-upload-text {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+input[type="file"] {
+  margin-top: 10px;
+}
+
+.vertical-separator {
+  height: 120px;
+  width: 2px;
+  background-color: black;
+  margin: 0 20px;
+}
+
+
+.qr-code-placeholder img {
+  width: 100px; 
+  height: 100px;
+  object-fit: cover;
+  margin-top: 10px;
+}
+
+.qr-code-placeholder {
+  margin-top: 20px;
+}
+
+.qr-code-text {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+
+/* Container của nút */
+.container {
+  text-align: center; /* Căn giữa nội dung */
+}
+
+/* Nút */
+button {
+  width: 50px; /* Chiều rộng cụ thể của nút */
+  padding: 10px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  margin: 20px auto; /* Căn giữa và thêm khoảng cách phía trên và dưới */
+  display: block; /* Đảm bảo nút được hiển thị như block */
+}
+
+
+button:hover {
+  background-color: #218838;
+}
+
+/* Login prompt */
+.login-prompt {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.login-link {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.login-link:hover {
+  text-decoration: underline;
+}
+.with-dot {
+  position: relative;
+  padding-left: 20px; /* Tạo khoảng trống để đặt chấm màu xanh */
+}
+
+.with-dot::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 10px;  /* Kích thước chấm */
+  height: 10px; /* Kích thước chấm */
+  background-color: blue; /* Màu xanh của chấm */
+  border-radius: 50%; /* Tạo hình tròn */
+}
+

@@ -1,0 +1,28 @@
+/* src/components/News.css */
+.news-container {
+  padding: 20px;
+}
+
+.news-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 4 articles per row */
+  gap: 20px; /* Space between articles */
+}
+
+.news-article {
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 5px;
+  overflow: hidden; /* Prevent overflow of images */
+  transition: box-shadow 0.3s;
+}
+
+.news-article:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.news-image {
+  width: 100%; /* Make the image responsive */
+  height: auto; /* Maintain aspect ratio */
+  margin-bottom: 10px; /* Space below the image */
+}

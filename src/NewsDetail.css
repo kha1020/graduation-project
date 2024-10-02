@@ -1,0 +1,23 @@
+
+.news-detail {
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+  }
+  
+  .news-detail h1 {
+    font-size: 28px;
+  }
+  
+  .news-detail .news-date {
+    font-size: 14px;
+    color: #777;
+    margin: 5px 0;
+  }
+  
+  .news-detail .news-image {
+    width: 100%;
+    height: auto;
+    margin: 15px 0;
+  }
+  

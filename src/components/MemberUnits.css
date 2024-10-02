@@ -1,0 +1,32 @@
+/* src/components/MemberUnits.css */
+.member-units {
+    background-color: #f8f9fa;
+    color: #333;
+    padding: 20px; /* Khoảng cách bên trong */
+    text-align: center;
+    border-top: 1px solid #ccc;
+    margin: 0; /* Đặt margin về 0 để không có khoảng cách bên ngoài */
+    width: 100%; /* Chiếm toàn bộ chiều rộng */
+    box-sizing: border-box; /* Đảm bảo padding được tính trong chiều rộng */
+  }
+  
+  .member-titles {
+    display: flex; /* Sử dụng Flexbox để các tiêu đề nằm ngang */
+    justify-content: space-around; /* Căn đều các tiêu đề theo chiều ngang */
+    margin-bottom: 20px; /* Khoảng cách giữa tiêu đề và ảnh */
+  }
+  
+  .member-titles h4 {
+    margin: 0 20px; /* Khoảng cách giữa các tiêu đề */
+  }
+  
+  .member-image-container {
+    text-align: center; /* Căn giữa hình ảnh */
+    margin-top: 20px; /* Khoảng cách giữa hình ảnh và nhóm tiêu đề */
+  }
+  
+  .member-image {
+    width: 150px; /* Điều chỉnh kích thước ảnh */
+    height: auto;
+  }
+  

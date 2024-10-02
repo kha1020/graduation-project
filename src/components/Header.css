@@ -1,0 +1,38 @@
+/* src/components/Header.css */
+.header {
+  width: 100%; /* Tràn hết chiều ngang */
+  background-color: #007bff; /* Màu nền của header */
+  padding: 10px 0; /* Khoảng cách padding trên và dưới */
+  position: fixed; /* Cố định header ở đầu trang */
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  display: flex; /* Sử dụng flexbox */
+  justify-content: center; /* Căn giữa theo chiều ngang */
+}
+
+.header-nav ul {
+  list-style: none; /* Xóa dấu gạch đầu dòng mặc định */
+  display: flex; /* Căn ngang các mục menu */
+  padding: 0;
+  margin: 0;
+}
+
+.header-nav li {
+  padding: 10px 20px; /* Khoảng cách giữa các mục */
+}
+
+.header-nav a {
+  color: white; /* Màu chữ */
+  text-decoration: none; /* Xóa gạch chân */
+  font-size: 18px; /* Kích thước chữ */
+}
+
+.header-nav a:hover {
+  text-decoration: underline; /* Thêm gạch chân khi hover */
+}
+/* src/components/Header.css */
+.header-nav a.active {
+  text-decoration: underline; /* Thêm gạch chân cho mục đang hoạt động */
+  color: #FFD700; /* Thay đổi màu chữ cho mục đang hoạt động (màu vàng) */
+}

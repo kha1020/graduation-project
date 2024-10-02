@@ -1,0 +1,38 @@
+/* src/components/Footer.css */
+.footer {
+  background-color: #007bff;
+  color: white;
+  padding: 20px;
+  position: relative;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+}
+
+.footer-container {
+  display: flex; /* Sử dụng Flexbox để xếp theo chiều ngang */
+  justify-content: space-around; /* Căn đều các cột theo chiều ngang */
+  align-items: flex-start; /* Căn trên cùng cho các cột */
+  flex-wrap: wrap; /* Cho phép các mục tự động xuống dòng nếu không đủ chỗ */
+}
+
+.footer-column {
+  flex: 1; /* Đảm bảo mỗi cột chiếm đều không gian */
+  margin: 10px;
+  min-width: 200px; /* Đảm bảo các cột không quá nhỏ khi màn hình hẹp */
+}
+
+.footer-column h4 {
+  margin-bottom: 10px;
+}
+
+.footer-column p {
+  margin-bottom: 5px;
+  font-size: 14px;
+}
+
+.footer-bottom {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 14px;
+}

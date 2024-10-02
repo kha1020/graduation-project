@@ -1,0 +1,24 @@
+/* src/Contact.css */
+.contact-container {
+    max-width: 800px; /* Giới hạn chiều rộng để nội dung không quá rộng */
+    margin: 0 auto; /* Căn giữa nội dung */
+    padding: 20px; /* Padding xung quanh */
+  }
+  
+  h1 {
+    text-align: center; /* Căn giữa tiêu đề chính */
+    margin-bottom: 20px; /* Khoảng cách dưới tiêu đề */
+  }
+  
+  .contact-section {
+    margin-bottom: 30px; /* Khoảng cách giữa các phần */
+    border: 1px solid #ccc; /* Viền xung quanh từng phần */
+    border-radius: 8px; /* Bo góc */
+    padding: 15px; /* Padding cho từng phần */
+  }
+  
+  .location,
+  .phone {
+    margin-top: 10px; /* Khoảng cách giữa tiêu đề và nội dung */
+  }
+  

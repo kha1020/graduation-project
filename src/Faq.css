@@ -1,0 +1,6 @@
+.faq-title {
+    text-align: center; /* Đưa tiêu đề ra giữa */
+    margin-bottom: 20px; /* Khoảng cách dưới tiêu đề */
+    font-size: 24px;
+    font-weight: bold;
+  }
